@@ -1,0 +1,89 @@
+{
+  "variant": "baseline",
+  "seed": 1,
+  "split_seed": 0,
+  "trainable_params": 17563776,
+  "trainable_params_before": 17563776,
+  "reduction": 0.0,
+  "selected_epoch": 5,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5136775491437363,
+      "val_box": 0.9342041982544793,
+      "val_prompt_free": 0.9072956566457395,
+      "val_mean": 0.9207499274501094
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.46535758291863644,
+      "val_box": 0.9363030866340355,
+      "val_prompt_free": 0.9095438387658861,
+      "val_mean": 0.9229234626999607
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4269139886838603,
+      "val_box": 0.9330531084979022,
+      "val_prompt_free": 0.9108360233130278,
+      "val_mean": 0.921944565905465
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.42651272904498416,
+      "val_box": 0.9345720079210069,
+      "val_prompt_free": 0.9082402427991231,
+      "val_mean": 0.9214061253600649
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.42659212344604014,
+      "val_box": 0.9390254532849347,
+      "val_prompt_free": 0.9122255444526672,
+      "val_mean": 0.925625498868801
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4059007359736877,
+      "val_box": 0.9380102025138007,
+      "val_prompt_free": 0.9094116661283705,
+      "val_mean": 0.9237109343210856
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3828174144965816,
+      "val_box": 0.9410332317705508,
+      "val_prompt_free": 0.9055514454841613,
+      "val_mean": 0.923292338627356
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.39283452670611635,
+      "val_box": 0.9219365693904735,
+      "val_prompt_free": 0.905823353043309,
+      "val_mean": 0.9138799612168913
+    }
+  ],
+  "test_box": 0.9376550426898342,
+  "test_prompt_free": 0.8984755708351928,
+  "n_test": 379,
+  "config": {
+    "segmote_root": "third_party/segmote",
+    "sam_checkpoint": "checkpoints/sam_b.pth",
+    "segmote_checkpoint": "checkpoints/segmote.pth",
+    "train_dir": "datasets/isic2016_train",
+    "test_dir": "datasets/isic2016_test",
+    "variant": "baseline",
+    "seed": 1,
+    "split_seed": 0,
+    "val_fraction": 0.15,
+    "epochs": 8,
+    "batch_size": 4,
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "image_size": 512,
+    "device": "cuda",
+    "save_weights": null,
+    "smoke": false
+  }
+}

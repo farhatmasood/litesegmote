@@ -1,0 +1,12 @@
+{
+  "expert_heads": {
+    "rank": 64,
+    "weighted": 0.9020699430621452,
+    "isotropic": 0.4673393670666438
+  },
+  "prompt_pooler": {
+    "rank": 128,
+    "weighted": 0.931450961081659,
+    "isotropic": 0.3189855416147017
+  }
+}

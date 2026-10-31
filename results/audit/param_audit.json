@@ -1,0 +1,19 @@
+{
+  "total_params": 200080336,
+  "trainable_params": 17563776,
+  "decoder_total_params": 40930180,
+  "prompt_tokenisation_params": 7091712,
+  "mixture_of_experts_params": 10472064,
+  "by_module": {
+    "img_prompt_pool": 7091712,
+    "expert_output_mlps": 5020032,
+    "compress_vit_feat": 2656608,
+    "expert_mlp": 1255008,
+    "expert_embedding_encoder": 664224,
+    "transformer": 539136,
+    "expert_feature_fusion": 332448,
+    "expert_tokens": 3072,
+    "text_token": 768,
+    "boxApoint_token": 768
+  }
+}

@@ -1,0 +1,107 @@
+tensor,shape,params
+compress_vit_feat.0.weight,"(768, 768, 2, 2)",2359296
+img_prompt_pool.mlp.0.weight,"(3072, 768)",2359296
+img_prompt_pool.mlp.2.weight,"(768, 3072)",2359296
+img_prompt_pool.attn.in_proj_weight,"(2304, 768)",1769472
+expert_mlp.layers.0.weight,"(768, 768)",589824
+expert_mlp.layers.1.weight,"(768, 768)",589824
+expert_embedding_encoder.0.weight,"(768, 192, 2, 2)",589824
+expert_output_mlps.0.layers.0.weight,"(768, 768)",589824
+expert_output_mlps.0.layers.1.weight,"(768, 768)",589824
+expert_output_mlps.1.layers.0.weight,"(768, 768)",589824
+expert_output_mlps.1.layers.1.weight,"(768, 768)",589824
+expert_output_mlps.2.layers.0.weight,"(768, 768)",589824
+expert_output_mlps.2.layers.1.weight,"(768, 768)",589824
+expert_output_mlps.3.layers.0.weight,"(768, 768)",589824
+expert_output_mlps.3.layers.1.weight,"(768, 768)",589824
+img_prompt_pool.attn.out_proj.weight,"(768, 768)",589824
+compress_vit_feat.3.weight,"(768, 96, 2, 2)",294912
+expert_feature_fusion.0.weight,"(192, 96, 3, 3)",165888
+expert_feature_fusion.3.weight,"(96, 192, 3, 3)",165888
+expert_mlp.layers.2.weight,"(96, 768)",73728
+expert_embedding_encoder.3.weight,"(192, 96, 2, 2)",73728
+expert_output_mlps.0.layers.2.weight,"(96, 768)",73728
+expert_output_mlps.1.layers.2.weight,"(96, 768)",73728
+expert_output_mlps.2.layers.2.weight,"(96, 768)",73728
+expert_output_mlps.3.layers.2.weight,"(96, 768)",73728
+transformer.layers.0.experts_token.0.lin1.weight,"(64, 768)",49152
+transformer.layers.0.experts_token.1.lin1.weight,"(64, 768)",49152
+transformer.layers.0.experts_token.2.lin1.weight,"(64, 768)",49152
+transformer.layers.0.experts_token.3.lin1.weight,"(64, 768)",49152
+transformer.layers.0.proj_token.weight,"(768, 64)",49152
+transformer.layers.1.experts_token.0.lin1.weight,"(64, 768)",49152
+transformer.layers.1.experts_token.1.lin1.weight,"(64, 768)",49152
+transformer.layers.1.experts_token.2.lin1.weight,"(64, 768)",49152
+transformer.layers.1.experts_token.3.lin1.weight,"(64, 768)",49152
+transformer.layers.1.proj_token.weight,"(768, 64)",49152
+transformer.layers.0.dte.weight,"(64, 64)",4096
+transformer.layers.0.dteall.weight,"(64, 64)",4096
+transformer.layers.0.dte_token.weight,"(64, 64)",4096
+transformer.layers.0.dteall_token.weight,"(64, 64)",4096
+transformer.layers.1.dte.weight,"(64, 64)",4096
+transformer.layers.1.dteall.weight,"(64, 64)",4096
+transformer.layers.1.dte_token.weight,"(64, 64)",4096
+transformer.layers.1.dteall_token.weight,"(64, 64)",4096
+transformer.layers.0.w_gate_token,"(768, 4)",3072
+transformer.layers.0.w_noise_token,"(768, 4)",3072
+transformer.layers.1.w_gate_token,"(768, 4)",3072
+transformer.layers.1.w_noise_token,"(768, 4)",3072
+expert_tokens.weight,"(4, 768)",3072
+img_prompt_pool.mlp.0.bias,"(3072,)",3072
+img_prompt_pool.attn.in_proj_bias,"(2304,)",2304
+img_prompt_pool.query,"(2, 768)",1536
+img_prompt_pool.pos_proj.weight,"(768, 2)",1536
+transformer.layers.0.proj_token.bias,"(768,)",768
+transformer.layers.1.proj_token.bias,"(768,)",768
+text_token.weight,"(1, 768)",768
+boxApoint_token.weight,"(1, 768)",768
+expert_mlp.layers.0.bias,"(768,)",768
+expert_mlp.layers.1.bias,"(768,)",768
+compress_vit_feat.0.bias,"(768,)",768
+compress_vit_feat.1.weight,"(768,)",768
+compress_vit_feat.1.bias,"(768,)",768
+expert_output_mlps.0.layers.0.bias,"(768,)",768
+expert_output_mlps.0.layers.1.bias,"(768,)",768
+expert_output_mlps.1.layers.0.bias,"(768,)",768
+expert_output_mlps.1.layers.1.bias,"(768,)",768
+expert_output_mlps.2.layers.0.bias,"(768,)",768
+expert_output_mlps.2.layers.1.bias,"(768,)",768
+expert_output_mlps.3.layers.0.bias,"(768,)",768
+expert_output_mlps.3.layers.1.bias,"(768,)",768
+img_prompt_pool.attn.out_proj.bias,"(768,)",768
+img_prompt_pool.ln_in.weight,"(768,)",768
+img_prompt_pool.ln_in.bias,"(768,)",768
+img_prompt_pool.ln_out.weight,"(768,)",768
+img_prompt_pool.ln_out.bias,"(768,)",768
+img_prompt_pool.pos_proj.bias,"(768,)",768
+img_prompt_pool.mlp.2.bias,"(768,)",768
+expert_embedding_encoder.0.bias,"(192,)",192
+expert_embedding_encoder.1.weight,"(192,)",192
+expert_embedding_encoder.1.bias,"(192,)",192
+expert_feature_fusion.0.bias,"(192,)",192
+expert_feature_fusion.1.weight,"(192,)",192
+expert_feature_fusion.1.bias,"(192,)",192
+expert_mlp.layers.2.bias,"(96,)",96
+compress_vit_feat.3.bias,"(96,)",96
+expert_embedding_encoder.3.bias,"(96,)",96
+expert_feature_fusion.3.bias,"(96,)",96
+expert_output_mlps.0.layers.2.bias,"(96,)",96
+expert_output_mlps.1.layers.2.bias,"(96,)",96
+expert_output_mlps.2.layers.2.bias,"(96,)",96
+expert_output_mlps.3.layers.2.bias,"(96,)",96
+transformer.layers.0.experts_token.0.lin1.bias,"(64,)",64
+transformer.layers.0.experts_token.1.lin1.bias,"(64,)",64
+transformer.layers.0.experts_token.2.lin1.bias,"(64,)",64
+transformer.layers.0.experts_token.3.lin1.bias,"(64,)",64
+transformer.layers.0.dte.bias,"(64,)",64
+transformer.layers.0.dteall.bias,"(64,)",64
+transformer.layers.0.dte_token.bias,"(64,)",64
+transformer.layers.0.dteall_token.bias,"(64,)",64
+transformer.layers.1.experts_token.0.lin1.bias,"(64,)",64
+transformer.layers.1.experts_token.1.lin1.bias,"(64,)",64
+transformer.layers.1.experts_token.2.lin1.bias,"(64,)",64
+transformer.layers.1.experts_token.3.lin1.bias,"(64,)",64
+transformer.layers.1.dte.bias,"(64,)",64
+transformer.layers.1.dteall.bias,"(64,)",64
+transformer.layers.1.dte_token.bias,"(64,)",64
+transformer.layers.1.dteall_token.bias,"(64,)",64

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "LiteSegMoTE"
+version: 1.0.0
+license: MIT
+type: software
+repository-code: "https://github.com/farhatmasood/litesegmote"
+authors:
+  - family-names: Masood
+    given-names: Rao Farhat
+    email: farhatmasood.fm@gmail.com
+    affiliation: "Capital University of Science and Technology, Islamabad, Pakistan"
+  - family-names: Safdar
+    given-names: Aon
+    affiliation: "University College Dublin, Dublin, Ireland"
+keywords:
+  - medical image segmentation
+  - model compression
+  - low-rank factorisation
+  - mixture of experts
+  - Segment Anything Model
+preferred-citation:
+  type: unpublished
+  title: "LiteSegMoTE: Low-Rank Redundancy in Token-Level Expert Decoders for Medical Image Segmentation"
+  authors:
+    - family-names: Masood
+      given-names: Rao Farhat
+      affiliation: "Capital University of Science and Technology, Islamabad, Pakistan"
+    - family-names: Safdar
+      given-names: Aon
+      affiliation: "University College Dublin, Dublin, Ireland"
+  year: 2026
+  notes: "Manuscript under review."

@@ -1,0 +1,90 @@
+{
+  "variant": "lite",
+  "seed": 0,
+  "split_seed": 0,
+  "trainable_params": 8639520,
+  "trainable_params_before": 17563776,
+  "reduction": 0.5081057740658956,
+  "selected_epoch": 8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.46947012654461784,
+      "val_box": 0.9050128274493747,
+      "val_prompt_free": 0.8837453484535217,
+      "val_mean": 0.8943790879514482
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4807175904200339,
+      "val_box": 0.9265311417756257,
+      "val_prompt_free": 0.908176804471899,
+      "val_mean": 0.9173539731237623
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4488595302816461,
+      "val_box": 0.9305724819501241,
+      "val_prompt_free": 0.9101544291884811,
+      "val_mean": 0.9203634555693025
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4422808717058591,
+      "val_box": 0.9219589078867877,
+      "val_prompt_free": 0.8978936301337348,
+      "val_mean": 0.9099262690102612
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4382341848930139,
+      "val_box": 0.9324853998643381,
+      "val_prompt_free": 0.9095364884093956,
+      "val_mean": 0.9210109441368668
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.41099854078904496,
+      "val_box": 0.9288335703037404,
+      "val_prompt_free": 0.907444237779688,
+      "val_mean": 0.9181389040417142
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.42952715585993223,
+      "val_box": 0.93210737352018,
+      "val_prompt_free": 0.9040784447281449,
+      "val_mean": 0.9180929091241625
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4056332904786964,
+      "val_box": 0.936448726830659,
+      "val_prompt_free": 0.9120817674530877,
+      "val_mean": 0.9242652471418733
+    }
+  ],
+  "test_box": 0.9356297609988492,
+  "test_prompt_free": 0.9029822618673533,
+  "n_test": 379,
+  "config": {
+    "segmote_root": "third_party/segmote",
+    "sam_checkpoint": "checkpoints/sam_b.pth",
+    "segmote_checkpoint": "checkpoints/segmote.pth",
+    "train_dir": "datasets/isic2016_train",
+    "test_dir": "datasets/isic2016_test",
+    "variant": "lite",
+    "seed": 0,
+    "split_seed": 0,
+    "val_fraction": 0.15,
+    "epochs": 8,
+    "batch_size": 4,
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "image_size": 512,
+    "device": "cuda",
+    "save_weights": "checkpoints/segmote_lite_seed0.pth",
+    "smoke": false
+  },
+  "epochs_run": 8
+}

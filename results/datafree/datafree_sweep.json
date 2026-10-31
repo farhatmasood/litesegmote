@@ -1,0 +1,92 @@
+[
+  {
+    "name": "released",
+    "expert_rank": null,
+    "pooler_rank": null,
+    "trainable_params": 17563776,
+    "reduction": 0.0,
+    "box": 0.9165484947705331,
+    "prompt_free": 0.8868834500448006,
+    "mean_relative_error": 0.0
+  },
+  {
+    "name": "prune-only",
+    "expert_rank": null,
+    "pooler_rank": null,
+    "trainable_params": 16307232,
+    "reduction": 0.07154179146898708,
+    "box": 0.9165484947705331,
+    "prompt_free": 0.8868834500448006,
+    "mean_relative_error": 0.0
+  },
+  {
+    "name": "r384-768",
+    "expert_rank": 384,
+    "pooler_rank": 768,
+    "trainable_params": 17486880,
+    "reduction": 0.004378101838693456,
+    "box": 0.9168598400256879,
+    "prompt_free": 0.8863047866585682,
+    "mean_relative_error": 0.21880966215248918
+  },
+  {
+    "name": "r192-384",
+    "expert_rank": 192,
+    "pooler_rank": 384,
+    "trainable_params": 12178464,
+    "reduction": 0.30661470517501477,
+    "box": 0.9170078091854156,
+    "prompt_free": 0.8842503058049572,
+    "mean_relative_error": 0.5210366398096085
+  },
+  {
+    "name": "r128-256",
+    "expert_rank": 128,
+    "pooler_rank": 256,
+    "trainable_params": 10408992,
+    "reduction": 0.4073602396204552,
+    "box": 0.9156755030469719,
+    "prompt_free": 0.8840286805347286,
+    "mean_relative_error": 0.6283782839775085
+  },
+  {
+    "name": "r96-192",
+    "expert_rank": 96,
+    "pooler_rank": 192,
+    "trainable_params": 9524256,
+    "reduction": 0.4577330068431754,
+    "box": 0.9156497718083197,
+    "prompt_free": 0.8838758957805727,
+    "mean_relative_error": 0.6860674023628235
+  },
+  {
+    "name": "r64-128",
+    "expert_rank": 64,
+    "pooler_rank": 128,
+    "trainable_params": 8639520,
+    "reduction": 0.5081057740658956,
+    "box": 0.916332268777812,
+    "prompt_free": 0.8847192977419944,
+    "mean_relative_error": 0.7476500511169434
+  },
+  {
+    "name": "r32-64",
+    "expert_rank": 32,
+    "pooler_rank": 64,
+    "trainable_params": 7754784,
+    "reduction": 0.5584785412886158,
+    "box": 0.91419942331031,
+    "prompt_free": 0.8874297571902368,
+    "mean_relative_error": 0.8163977921009063
+  },
+  {
+    "name": "r16-32",
+    "expert_rank": 16,
+    "pooler_rank": 32,
+    "trainable_params": 7312416,
+    "reduction": 0.5836649248999759,
+    "box": 0.9162884897166632,
+    "prompt_free": 0.8889502037709031,
+    "mean_relative_error": 0.8620639741420746
+  }
+]

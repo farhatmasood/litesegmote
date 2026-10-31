@@ -1,0 +1,57 @@
+[
+  {
+    "name": "prune-only",
+    "expert_rank": null,
+    "pooler_rank": null,
+    "vitfeat_rank": null,
+    "trainable_params": 16307232,
+    "reduction": 0.07154179146898708,
+    "box": 0.9165484947705331,
+    "prompt_free": 0.8868834500448006,
+    "mean_relative_error": 0.0
+  },
+  {
+    "name": "experts-r64",
+    "expert_rank": 64,
+    "pooler_rank": null,
+    "vitfeat_rank": null,
+    "trainable_params": 12375072,
+    "reduction": 0.29542075690329916,
+    "box": 0.916332268777812,
+    "prompt_free": 0.8860271179690431,
+    "mean_relative_error": 0.7282642722129822
+  },
+  {
+    "name": "pooler-r128",
+    "expert_rank": null,
+    "pooler_rank": 128,
+    "vitfeat_rank": null,
+    "trainable_params": 12571680,
+    "reduction": 0.28422680863158356,
+    "box": 0.9165484947705331,
+    "prompt_free": 0.8854098785760761,
+    "mean_relative_error": 0.8251931667327881
+  },
+  {
+    "name": "litesegmote",
+    "expert_rank": 64,
+    "pooler_rank": 128,
+    "vitfeat_rank": null,
+    "trainable_params": 8639520,
+    "reduction": 0.5081057740658956,
+    "box": 0.916332268777812,
+    "prompt_free": 0.8847192977419944,
+    "mean_relative_error": 0.7476500511169434
+  },
+  {
+    "name": "litesegmote+adapter-r64",
+    "expert_rank": 64,
+    "pooler_rank": 128,
+    "vitfeat_rank": 64,
+    "trainable_params": 6525984,
+    "reduction": 0.6284407179868383,
+    "box": 0.9164857004909214,
+    "prompt_free": 0.8849302672195595,
+    "mean_relative_error": 0.7099745679985393
+  }
+]

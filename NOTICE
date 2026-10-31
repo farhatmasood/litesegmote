@@ -1,0 +1,35 @@
+LiteSegMoTE
+Copyright (c) 2026 Rao Farhat Masood
+
+This project builds on the following works.
+
+1. SegMoTE
+   Yujie Lu, Jingwen Li, Sibo Ju, Yanzhou Su, He Yao, Yisong Liu, Min Zhu and
+   Junlong Cheng. "SegMoTE: Token-Level Mixture of Experts for Medical Image
+   Segmentation." IEEE/CVF Conference on Computer Vision and Pattern Recognition
+   (CVPR), 2026. https://doi.org/10.48550/arXiv.2602.19213
+   Source: https://github.com/InMyDreammer/SegMoTE
+   Licence: MIT, Copyright (c) 2026 InMyDreammer
+
+   The SegMoTE sources are not redistributed in this repository. They are fetched
+   at a pinned commit by setup_upstream.py. The model graph, the mask decoder and
+   the released weights are the work of the SegMoTE authors. The contribution here
+   is the compression method, the evaluation protocol and the analysis built on
+   top of that model.
+
+2. Segment Anything Model
+   Alexander Kirillov et al. "Segment Anything." IEEE/CVF International Conference
+   on Computer Vision (ICCV), 2023. https://doi.org/10.1109/ICCV51070.2023.00371
+   Source: https://github.com/facebookresearch/segment-anything
+   Licence: Apache License 2.0
+
+   Portions of the SegMoTE model code derive from the Segment Anything Model.
+
+3. ISIC 2016 lesion segmentation data
+   David Gutman et al., 2016. https://doi.org/10.48550/arXiv.1605.01397
+   Hosted by the International Skin Imaging Collaboration. The data are
+   downloaded from the challenge host by the user and are not redistributed
+   here; their terms of use are set by the ISIC archive. For illustration only,
+   assets/qualitative_cases.png shows ISIC 2016 test images 0009083, 0010378,
+   0000138, 0009882, 0000222, 0011152 and 0008992, and assets/architecture.png
+   shows a dermoscopic input thumbnail.

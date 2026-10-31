@@ -1,0 +1,22 @@
+# Fetched upstream sources
+third_party/
+
+# Model weights and data are downloaded by the user, never committed
+checkpoints/
+datasets/
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor and operating system
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

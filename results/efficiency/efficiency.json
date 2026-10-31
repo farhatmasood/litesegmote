@@ -1,0 +1,25 @@
+{
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "results": [
+    {
+      "variant": "baseline",
+      "trainable_params": 17563776,
+      "decoder_ms": 15.077,
+      "decoder_ms_sd": 1.413,
+      "pipeline_ms": 57.805,
+      "pipeline_ms_sd": 1.722,
+      "decoder_gmacs": 14.088,
+      "peak_memory_gb": 1.043
+    },
+    {
+      "variant": "lite",
+      "trainable_params": 8639520,
+      "decoder_ms": 14.801,
+      "decoder_ms_sd": 1.066,
+      "pipeline_ms": 57.97,
+      "pipeline_ms_sd": 2.135,
+      "decoder_gmacs": 14.085,
+      "peak_memory_gb": 1.007
+    }
+  ]
+}
